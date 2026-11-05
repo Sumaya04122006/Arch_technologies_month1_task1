@@ -1,0 +1,41 @@
+{
+  "52499ab6": {
+    "title": "Write a short email asking for an intern",
+    "created": "2026-11-06T01:39:08.516175",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Write a short email asking for an internship extension"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a sample email:\n\nSubject: Request for Internship Extension\n\nDear [Supervisor's Name],\n\nI am writing to request an extension of my internship with [Company Name]. Due to [briefly mention the reason for the extension request, e.g. \"unforeseen personal circumstances\" or \"additional projects to complete\"], I need to continue working on my projects for [ specify the number of extra weeks or months].\n\nI have been diligently working on my tasks and have made significant progress. I am committed to delivering high-quality work and would greatly appreciate the opportunity to continue contributing to the team. I am confident that an extension will allow me to complete my objectives and achieve the expected outcomes.\n\nIf possible, I would like to request an extension of [ specify the number of weeks or months]. I am available to discuss this further and provide any necessary documentation if required.\n\nThank you for considering my request.\n\nBest regards,\n\n[Your Name]",
+        "stats": "⚡ 4.7 tok/s · 189 tokens · 42.9s · llama3.2:3b"
+      },
+      {
+        "role": "user",
+        "content": "Make it professional"
+      },
+      {
+        "role": "assistant",
+        "content": "Here is a revised version of the email:\n\nSubject: Request for Internship Extension\n\nDear [Supervisor's Name],\n\nI am writing to formally request an extension of my internship with [Company Name], which is currently set to conclude on [Original End Date]. Due to unforeseen circumstances, I require additional time to complete my project tasks and ensure that I meet the expected standards.\n\nI have made significant progress on my assignments and am committed to delivering high-quality work. I believe that an extension will enable me to complete my objectives and achieve the desired outcomes.\n\nSpecifically, I am requesting an extension of [ specify the number of weeks or months] to allow myself sufficient time to complete my tasks. I would appreciate it if we could discuss this request further and explore possible arrangements.\n\nPlease let me know if this request can be accommodated, and if there is any additional information or documentation required.\n\nThank you for your consideration and I look forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]",
+        "stats": "⚡ 4.3 tok/s · 201 tokens · 49.8s · llama3.2:3b"
+      }
+    ]
+  },
+  "ff3e61e6": {
+    "title": "Explain how neural networks learn, simpl",
+    "created": "2026-11-06T01:48:34.610235",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain how neural networks learn, simply"
+      },
+      {
+        "role": "assistant",
+        "content": "Here's a simplified explanation of how neural networks learn:\n\n**The Goal:** Neural networks aim to learn a mapping between inputs (like pictures or text) and outputs (like the object in the picture or the text's meaning).\n\n**The Process:**\n\n1. **Data Collection:** The network is trained on a large dataset of examples, where each example has an input and an output (e.g., a picture of a cat and the label \"cat\").\n2. **Activation:** The network processes the input data through layers of nodes (neurons). Each node applies a transformation to the input, generating a new output.\n3. **Error Calculation:** The network calculates the difference between its output and the expected output (the correct label). This error is called the \"loss.\"\n4. **Weight Adjustment:** The network adjusts the strength of connections between nodes (weights) to minimize the loss. This is done by learning from the error.\n5. **Optimization:** The network uses an optimization algorithm (like gradient descent) to adjust the weights and minimize the loss. The goal is to find the optimal set of weights that results in the lowest loss.\n6. **Repeat:** Steps 2-5 are repeated many times, with the network adjusting its weights and minimizing the loss at each iteration.\n\n**The Magic:** Through this process, the network learns to recognize patterns and relationships between inputs and outputs. As it repeats the process, it refines its understanding and becomes more accurate.\n\nThat's the basic idea behind how neural networks learn!",
+        "stats": "⚡ 4.7 tok/s · 308 tokens · 67.7s · llama3.2:3b"
+      }
+    ]
+  }
+}
